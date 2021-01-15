@@ -21,11 +21,16 @@
           <div class="header__col">
             <div class="header__row">
               <div class="header__col" v-if="auth">
-                <button class="header__username">Валентин Петухов</button>
+                <button class="header__action login">Валентин Петухов</button>
                 <button class="header__logout">Выйти</button>
               </div>
               <div class="header__col" v-else>
-                <button class="header__login">Войти</button>
+                <button class="header__action">Войти</button>
+              </div>
+              <!-- ** -->
+              <div class="header__col flex header__additional-buttons">
+                <button class="header__action compare">Сравнить</button>
+                <button class="header__action cart">Корзина</button>
               </div>
             </div>
           </div>
