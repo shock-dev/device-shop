@@ -93,6 +93,43 @@
     }
   }
 
+  &__catalog {
+
+    &-title {
+      padding-right: 26px;
+      position: relative;
+      font-family: Gilroy, sans-serif;
+      font-weight: 800;
+      font-size: 20px;
+      line-height: 24px;
+      text-transform: uppercase;
+
+      &:after {
+        content: '';
+        position: absolute;
+        opacity: .6;
+        right: 0;
+        bottom: 6px;
+        width: 16px;
+        height: 16px;
+        background-image: url('~@/assets/img/svg/plus.svg');
+        transition: transform .3s;
+      }
+
+      &:hover,
+      &:focus {
+        opacity: .6;
+
+        &:after {
+          transform: rotate(90deg);
+        }
+
+      }
+
+    }
+
+  }
+
 }
 
 .search {
@@ -166,6 +203,7 @@
     font-weight: 800;
     font-size: 20px;
     line-height: 24px;
+    text-transform: uppercase;
 
     &:hover,
     &:focus {
