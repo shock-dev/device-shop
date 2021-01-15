@@ -2,7 +2,33 @@
   padding-top: 40px;
 
   &__inner {
+    position: relative;
     padding: 40px 60px 50px;
     background-color: $yellow;
   }
+
+  &__logo {
+    display: flex;
+    position: absolute;
+    top: 0;
+    line-height: 1;
+    transform: translateY(-50%);
+
+    &:hover {
+      opacity: .7;
+    }
+
+    &:active {
+      opacity: .5;
+    }
+  }
+
+  &__row {
+    display: flex;
+  }
+
+  &__col {
+    flex-grow: 1;
+  }
+
 }
