@@ -36,7 +36,11 @@
           </div>
         </div>
         <div class="header__row align">
-          <div class="header__col"></div>
+          <div class="header__col">
+            <div class="header__catalog">
+              <router-link class="header__catalog-title" to="#">Каталог</router-link>
+            </div>
+          </div>
           <div class="header__col">
             <nav class="header__menu menu">
               <ul class="menu__list flex">
