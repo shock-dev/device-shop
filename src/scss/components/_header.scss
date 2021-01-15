@@ -33,9 +33,7 @@
     width: 50%;
   }
 
-  // Login button
-  &__login,
-  &__username {
+  &__action {
     position: relative;
     padding-left: 25px;
     outline: none;
@@ -44,10 +42,8 @@
       content: '';
       position: absolute;
       left: 0;
-      bottom: 2px;
-      width: 13px;
-      height: 12px;
-      background-image: url('~@/assets/img/svg/user.svg');
+      top: 50%;
+      transform: translateY(-50%);
       background-repeat: no-repeat;
     }
 
@@ -60,12 +56,37 @@
       opacity: .3;
     }
 
+    &.login:before {
+      width: 13px;
+      height: 12px;
+      background-image: url('~@/assets/img/svg/user.svg');
+    }
+
+    &.compare:before {
+      width: 10px;
+      height: 10px;
+      background-image: url('~@/assets/img/svg/compare.svg');
+    }
+
+    &.cart:before {
+      width: 12px;
+      height: 12px;
+      background-image: url('~@/assets/img/svg/cart.svg');
+    }
+
   }
 
-  // Logout button
   &__logout {
     margin-left: 20px;
     opacity: .6;
+  }
+
+  &__additional-buttons {
+    justify-content: flex-end;
+
+    & > *:not(:last-child) {
+      margin-right: 36px;
+    }
   }
 
 }
