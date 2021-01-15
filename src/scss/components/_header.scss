@@ -27,6 +27,10 @@
 
   &__row {
     display: flex;
+
+    &:not(:last-child) {
+      margin-bottom: 35px;
+    }
   }
 
   &__col {
@@ -140,6 +144,36 @@
 
     .search__btn {
       display: block;
+    }
+
+  }
+
+}
+
+.menu {
+
+  &__item:last-child {
+    margin-left: auto;
+  }
+
+  &__item:not(:last-child) {
+    margin-right: 40px;
+  }
+
+  &__link {
+    outline: none;
+    font-family: Gilroy, sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+
+    &:hover,
+    &:focus {
+      opacity: .6;
+    }
+
+    &:active {
+      opacity: .3;
     }
 
   }
