@@ -13,8 +13,10 @@
     top: 0;
     line-height: 1;
     transform: translateY(-50%);
+    outline: none;
 
-    &:hover {
+    &:hover,
+    &:focus {
       opacity: .7;
     }
 
@@ -28,7 +30,42 @@
   }
 
   &__col {
-    flex-grow: 1;
+    width: 50%;
+  }
+
+  // Login button
+  &__login,
+  &__username {
+    position: relative;
+    padding-left: 25px;
+    outline: none;
+
+    &:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 2px;
+      width: 13px;
+      height: 12px;
+      background-image: url('~@/assets/img/svg/user.svg');
+      background-repeat: no-repeat;
+    }
+
+    &:hover,
+    &:focus {
+      opacity: .6;
+    }
+
+    &:active {
+      opacity: .3;
+    }
+
+  }
+
+  // Logout button
+  &__logout {
+    margin-left: 20px;
+    opacity: .6;
   }
 
 }

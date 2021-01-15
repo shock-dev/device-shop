@@ -5,7 +5,7 @@
         <router-link class="header__logo" :to="{ name: 'Home' }">
           <img src="~@/assets/img/logo.png" alt="Logo">
         </router-link>
-        <div class="header__row">
+        <div class="header__row align">
           <div class="header__col search flex" :class="{ active: searchActive }">
             <label class="search__label">
               <input
