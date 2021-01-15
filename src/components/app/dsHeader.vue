@@ -18,7 +18,17 @@
             </label>
             <button class="search__btn">Найти</button>
           </div>
-          <div class="header__col"></div>
+          <div class="header__col">
+            <div class="header__row">
+              <div class="header__col" v-if="auth">
+                <button class="header__username">Валентин Петухов</button>
+                <button class="header__logout">Выйти</button>
+              </div>
+              <div class="header__col" v-else>
+                <button class="header__login">Войти</button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -29,7 +39,8 @@
 export default {
   name: "dsHeader",
   data: () => ({
-    searchActive: false
+    searchActive: false,
+    auth: true
   })
 }
 </script>
