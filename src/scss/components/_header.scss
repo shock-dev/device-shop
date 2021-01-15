@@ -65,6 +65,11 @@
     border: 2px solid $black;
     padding: 0 20px;
     display: none;
+
+    &:hover {
+      background-color: $black;
+      color: $white;
+    }
   }
 
   // focus input
