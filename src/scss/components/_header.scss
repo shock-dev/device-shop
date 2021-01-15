@@ -32,3 +32,53 @@
   }
 
 }
+
+.search {
+
+  &__label {
+    position: relative;
+
+    &:after {
+      content: '';
+      position: absolute;
+      width: 16px;
+      height: 17px;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      background-image: url('~@/assets/img/svg/search.svg');
+      background-repeat: no-repeat;
+    }
+
+  }
+
+  &__input {
+    color: rgba($black, .3);
+    border: none;
+    border-bottom: 2px solid transparent;
+    background-color: transparent;
+    padding: 12px 40px;
+    outline: none;
+  }
+
+  &__btn {
+    border: 2px solid $black;
+    padding: 0 20px;
+    display: none;
+  }
+
+  // focus input
+  &.active {
+
+    .search__input {
+      border-bottom: 2px solid $black;
+      color: $black;
+    }
+
+    .search__btn {
+      display: block;
+    }
+
+  }
+
+}
