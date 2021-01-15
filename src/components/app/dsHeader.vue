@@ -35,6 +35,24 @@
             </div>
           </div>
         </div>
+        <div class="header__row align">
+          <div class="header__col"></div>
+          <div class="header__col">
+            <nav class="header__menu menu">
+              <ul class="menu__list flex">
+                <li class="menu__item">
+                  <router-link class="menu__link" to="#">Доставка</router-link>
+                </li>
+                <li class="menu__item">
+                  <router-link class="menu__link" to="#">Гарантия</router-link>
+                </li>
+                <li class="menu__item">
+                  <router-link class="menu__link" to="#">Контакты</router-link>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
       </div>
     </div>
   </header>
