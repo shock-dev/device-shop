@@ -39,6 +39,34 @@
           <div class="header__col">
             <div class="header__catalog">
               <router-link class="header__catalog-title" to="#">Каталог</router-link>
+              <div class="header__catalog-popup catalog-popup">
+                <div class="catalog-popup__inner flex">
+                  <ul class="catalog-popup__list">
+                    <li class="catalog-popup__item">
+                      <router-link class="catalog-popup__link" to="#">Виртуальная реальность</router-link>
+                    </li>
+                    <li class="catalog-popup__item">
+                      <router-link class="catalog-popup__link" to="#">Моноподы для селфи</router-link>
+                    </li>
+                    <li class="catalog-popup__item">
+                      <router-link class="catalog-popup__link" to="#">Экшн-камеры</router-link>
+                    </li>
+                  </ul>
+                  <ul class="catalog-popup__list">
+                    <li class="catalog-popup__item">
+                      <router-link class="catalog-popup__link" to="#">Фитнеc-браслеты</router-link>
+                    </li>
+                    <li class="catalog-popup__item">
+                      <router-link class="catalog-popup__link" to="#">Умные часы</router-link>
+                    </li>
+                  </ul>
+                  <ul class="catalog-popup__list">
+                    <li class="catalog-popup__item">
+                      <router-link class="catalog-popup__link" to="#">Квадрокоптеры</router-link>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
           <div class="header__col">
