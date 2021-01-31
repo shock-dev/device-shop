@@ -12,3 +12,33 @@
     margin-bottom: 12px;
   }
 }
+
+.breadcrumbs {
+
+  &__item:not(:last-child) {
+    margin-right: 20px;
+
+    .breadcrumbs__link {
+      position: relative;
+      padding-right: 20px;
+
+      &:after {
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        background-image: url('~@/assets/img/svg/nav-arrow.svg');
+        width: 4px;
+        height: 7px;
+      }
+    }
+
+  }
+
+  &__link {
+    font-size: 14px;
+    color: rgba($black, .3);
+  }
+
+}
