@@ -1,5 +1,11 @@
 <template>
-  <div class="catalog"></div>
+  <div class="catalog">
+    <div class="container">
+      <div class="catalog__inner">
+        <h2 class="catalog__title">Моноподы для селфи</h2>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
