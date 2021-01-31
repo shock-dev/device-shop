@@ -1,0 +1,14 @@
+.catalog {
+
+  &__inner {
+    padding: 36px $padding-container 48px;
+  }
+
+  &__title {
+    font-family: Gilroy, sans-serif;
+    font-weight: 800;
+    font-size: 47px;
+    line-height: 1;
+    margin-bottom: 12px;
+  }
+}
