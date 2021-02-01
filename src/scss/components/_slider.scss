@@ -33,6 +33,11 @@
       border-radius: 50%;
       border: 1px solid $light-black;
       margin: 0;
+      outline: none;
+
+      &:hover {
+        background-color: transparent;
+      }
 
       &.is-active {
         background-color: transparent;
