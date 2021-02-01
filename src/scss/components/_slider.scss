@@ -128,6 +128,28 @@
       }
     }
 
+    &-params {
+      margin-top: 55px;
+
+      &__item:not(:last-child) {
+        margin-right: 70px;
+      }
+
+      span {
+        display: block;
+        color: $light-black;
+      }
+
+      span:first-child {
+        color: $black;
+        font-size: 36px;
+        line-height: 48px;
+        font-family: Gilroy, sans-serif;
+        font-weight: 300;
+        margin-bottom: 8px;
+      }
+    }
+
   }
 
 }
