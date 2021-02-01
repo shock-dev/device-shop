@@ -21,7 +21,7 @@
 
   .hooper-pagination {
     position: absolute;
-    bottom: 166px;
+    bottom: 156px;
     right: 130px;
     display: flex;
     padding: 0;
@@ -114,11 +114,12 @@
 
     &-button {
       position: relative;
-      padding: 0 45px;
+      padding: 10px 45px;
       font-size: 18px;
       line-height: 24px;
       font-family: Gilroy, sans-serif;
       font-weight: 800;
+      outline: none;
 
       &:before {
         content: '';
@@ -130,7 +131,24 @@
         height: 8px;
         background-color: #F0C52E;
         z-index: -1;
+        transition: height .2s;
       }
+
+      &:hover::before,
+      &:focus::before {
+        height: 100%;
+      }
+
+
+
+      &:active {
+        color: #F7E184;
+
+        &:before {
+          background-color: $black;
+        }
+      }
+
     }
 
     &-params {
