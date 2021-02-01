@@ -3,10 +3,28 @@
     <div class="container">
       <hooper>
         <slide>
-          slide 1
+          <div class="slider__item flex">
+            <div class="slider__item-img">
+              <img src="~@/assets/img/slider-img.png" alt="">
+            </div>
+            <div class="slider__item-info">
+              <div class="slider__item-head">
+                <span>01</span>
+              </div>
+            </div>
+          </div>
         </slide>
         <slide>
-          slide 2
+          <div class="slider__item flex">
+            <div class="slider__item-img">
+              <img src="~@/assets/img/slider-img.png" alt="">
+            </div>
+            <div class="slider__item-info">
+              <div class="slider__item-head">
+                <span>02</span>
+              </div>
+            </div>
+          </div>
         </slide>
 
         <hooper-pagination slot="hooper-addons"></hooper-pagination>
