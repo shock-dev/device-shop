@@ -3,9 +3,13 @@
     <div class="container">
       <div class="services__inner">
         <div class="services__tabs-box">
-          <button class="services__tab active">Доставка</button>
-          <button class="services__tab">Гарантия</button>
-          <button class="services__tab">Кредит</button>
+          <button
+            class="services__tab"
+            v-for="(tab, index) in tabs"
+            :key="index"
+            :class="{ active: index === activeTab }"
+            @click="activeTab = index"
+          >{{ tab.title }}</button>
         </div>
         <div class="services__content">
           <div class="services__content-item">
@@ -25,6 +29,20 @@
 
 <script>
 export default {
-  name: "dsServices"
+  name: "dsServices",
+  data: () => ({
+    tabs: [
+      {
+        title: 'Доставка'
+      },
+      {
+        title: 'Гарантия'
+      },
+      {
+        title: 'Кредит'
+      }
+    ],
+    activeTab: 0
+  })
 }
 </script>
