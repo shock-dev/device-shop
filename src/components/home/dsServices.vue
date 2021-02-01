@@ -5,10 +5,10 @@
         <div class="services__tabs-box">
           <button
             class="services__tab"
-            v-for="(tab, index) in tabs"
-            :key="index"
-            :class="{ active: index === activeTab }"
-            @click="activeTab = index"
+            v-for="tab in tabs"
+            :key="tab.id"
+            :class="{ active: tab.id === activeTab }"
+            @click="activeTab = tab.id"
           >{{ tab.title }}</button>
         </div>
         <div class="services__content">
@@ -33,12 +33,15 @@ export default {
   data: () => ({
     tabs: [
       {
+        id: 1,
         title: 'Доставка'
       },
       {
+        id: 2,
         title: 'Гарантия'
       },
       {
+        id: 3,
         title: 'Кредит'
       }
     ],
