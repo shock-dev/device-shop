@@ -17,6 +17,20 @@
                 Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.
               </p>
               <button class="slider__item-button">Подробнее</button>
+              <div class="slider__item-params flex">
+                <div class="slider__item-params__item">
+                  <span>8,5 м</span>
+                  <span>Длина палки</span>
+                </div>
+                <div class="slider__item-params__item">
+                  <span>5 кг</span>
+                  <span>Вес палки</span>
+                </div>
+                <div class="slider__item-params__item">
+                  <span>Карбон</span>
+                  <span>Материал</span>
+                </div>
+              </div>
             </div>
           </div>
         </slide>
@@ -35,6 +49,20 @@
                 Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.
               </p>
               <button class="slider__item-button">Подробнее</button>
+              <div class="slider__item-params flex">
+                <div class="slider__item-params__item">
+                  <span>8,5 м</span>
+                  <span>Длина палки</span>
+                </div>
+                <div class="slider__item-params__item">
+                  <span>5 кг</span>
+                  <span>Вес палки</span>
+                </div>
+                <div class="slider__item-params__item">
+                  <span>Карбон</span>
+                  <span>Материал</span>
+                </div>
+              </div>
             </div>
           </div>
         </slide>
@@ -53,10 +81,23 @@
                 Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.
               </p>
               <button class="slider__item-button">Подробнее</button>
+              <div class="slider__item-params flex">
+                <div class="slider__item-params__item">
+                  <span>8,5 м</span>
+                  <span>Длина палки</span>
+                </div>
+                <div class="slider__item-params__item">
+                  <span>5 кг</span>
+                  <span>Вес палки</span>
+                </div>
+                <div class="slider__item-params__item">
+                  <span>Карбон</span>
+                  <span>Материал</span>
+                </div>
+              </div>
             </div>
           </div>
         </slide>
-
         <hooper-pagination slot="hooper-addons"></hooper-pagination>
       </hooper>
       </div>
