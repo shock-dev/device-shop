@@ -1,0 +1,56 @@
+.home__slider {
+
+  .hooper {
+    min-height: 500px;
+    outline: none;
+
+    &:before {
+      content: '';
+      position: absolute;
+      height: 120px;
+      background-color: $yellow;
+      top: 0;
+      left: 0;
+      right: 0;
+    }
+  }
+
+  .slider__item {
+    padding: 0 $padding-slider;
+
+    &-info {
+      flex-grow: 1;
+    }
+
+    &-img {
+      margin-right: 125px;
+    }
+    
+    &-head {
+      display: flex;
+      justify-content: flex-end;
+      position: relative;
+
+      span {
+        font-family: Gilroy, sans-serif;
+        font-weight: 800;
+        font-size: 170px;
+        color: $white;
+        line-height: 1;
+      }
+
+      &:before {
+        content: '';
+        position: absolute;
+        width: 100px;
+        height: 7px;
+        background-color: $white;
+        left: 0;
+        top: 50px;
+      }
+
+    }
+
+  }
+
+}
