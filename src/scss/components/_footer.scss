@@ -1,0 +1,49 @@
+.footer {
+  background-color: $light-black;
+  padding: 60px 0 65px;
+
+  &__head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    &:hover,
+    &:focus {
+      opacity: .7;
+    }
+
+    &:active {
+      opacity: .5;
+    }
+  }
+  
+  &__actions {
+    color: rgba($white, .7);
+  }
+
+  &__action {
+    outline: none;
+
+    &:not(:last-child) {
+      margin-right: 40px;
+    }
+
+    &-svg {
+      margin-right: 10px;
+      fill: #FFC600;
+    }
+
+    &:hover,
+    &:focus {
+      opacity: .6;
+    }
+
+    &:active {
+      opacity: .3;
+    }
+
+  }
+
+}
