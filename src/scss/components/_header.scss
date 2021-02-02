@@ -40,15 +40,6 @@
   &__action {
     outline: none;
 
-    &:before {
-      content: '';
-      position: absolute;
-      left: 0;
-      top: 50%;
-      transform: translateY(-50%);
-      background-repeat: no-repeat;
-    }
-
     &:hover,
     &:focus {
       opacity: .6;
