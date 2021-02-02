@@ -76,3 +76,12 @@ button {
 .hide {
   display: none !important;
 }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-50 {
+  width: 50%;
+}
