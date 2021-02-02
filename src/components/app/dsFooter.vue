@@ -42,6 +42,26 @@
           </ul>
           <div class="footer__phone">Тел.: +7 (495) 495-95-95</div>
         </div>
+        <div class="footer__bottom">
+          <div class="footer__line"></div>
+          <ul class="footer__social flex">
+            <li class="footer__social-item">
+              <router-link class="footer__social-link" to="">
+                <img src="~@/assets/img/svg/fb.svg" alt="Facebook">
+              </router-link>
+            </li>
+            <li class="footer__social-item">
+              <router-link class="footer__social-link" to="">
+                <img src="~@/assets/img/svg/vk.svg" alt="Vk">
+              </router-link>
+            </li>
+            <li class="footer__social-item">
+              <router-link class="footer__social-link" to="">
+                <img src="~@/assets/img/svg/twitter.svg" alt="Twitter">
+              </router-link>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </footer>
