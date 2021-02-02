@@ -27,6 +27,21 @@
             </button>
           </div>
         </div>
+        <div class="footer__body">
+          <div class="footer__address">г. Москва, ул. Строителей, 15</div>
+          <ul class="footer__menu">
+            <li class="footer__menu-item">
+              <router-link class="footer__menu-link" to="">Доставка</router-link>
+            </li>
+            <li class="footer__menu-item">
+              <router-link class="footer__menu-link" to="">Гарантия</router-link>
+            </li>
+            <li class="footer__menu-item">
+              <router-link class="footer__menu-link" to="">Контакты</router-link>
+            </li>
+          </ul>
+          <div class="footer__phone">Тел.: +7 (495) 495-95-95</div>
+        </div>
       </div>
     </div>
   </footer>
