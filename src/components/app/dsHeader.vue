@@ -21,16 +21,36 @@
           <div class="header__col">
             <div class="header__row">
               <div class="header__col" v-if="auth">
-                <button class="header__action login">Валентин Петухов</button>
+                <button class="header__action">
+                  <svg class="header__action-svg" width="13" height="12">
+                    <use href="~@/assets/img/svg/sprite.svg#login"></use>
+                  </svg>
+                  <span class="header__action-text">Валентин Петухов</span>
+                </button>
                 <button class="header__logout">Выйти</button>
               </div>
               <div class="header__col" v-else>
-                <button class="header__action">Войти</button>
+                <button class="header__action">
+                  <svg class="header__action-svg" width="13" height="12">
+                    <use href="~@/assets/img/svg/sprite.svg#login"></use>
+                  </svg>
+                  <span class="header__action-text">Войти</span>
+                </button>
               </div>
               <!-- ** -->
               <div class="header__col flex header__additional-buttons">
-                <button class="header__action compare">Сравнить</button>
-                <button class="header__action cart">Корзина</button>
+                <button class="header__action">
+                  <svg class="header__action-svg" width="10" height="10">
+                    <use href="~@/assets/img/svg/sprite.svg#compare"></use>
+                  </svg>
+                  <span class="header__action-text">Сравнить</span>
+                </button>
+                <button class="header__action">
+                  <svg class="header__action-svg" width="12" height="12">
+                    <use href="~@/assets/img/svg/sprite.svg#cart"></use>
+                  </svg>
+                  <span class="header__action-text">Корзина</span>
+                </button>
               </div>
             </div>
           </div>

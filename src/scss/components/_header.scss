@@ -38,18 +38,7 @@
   }
 
   &__action {
-    position: relative;
-    padding-left: 25px;
     outline: none;
-
-    &:before {
-      content: '';
-      position: absolute;
-      left: 0;
-      top: 50%;
-      transform: translateY(-50%);
-      background-repeat: no-repeat;
-    }
 
     &:hover,
     &:focus {
@@ -60,22 +49,8 @@
       opacity: .3;
     }
 
-    &.login:before {
-      width: 13px;
-      height: 12px;
-      background-image: url('~@/assets/img/svg/user.svg');
-    }
-
-    &.compare:before {
-      width: 10px;
-      height: 10px;
-      background-image: url('~@/assets/img/svg/compare.svg');
-    }
-
-    &.cart:before {
-      width: 12px;
-      height: 12px;
-      background-image: url('~@/assets/img/svg/cart.svg');
+    &-svg {
+      margin-right: 10px;
     }
 
   }
