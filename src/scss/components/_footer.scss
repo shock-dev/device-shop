@@ -75,4 +75,41 @@
 
   }
 
+  &__bottom {
+    position: relative;
+    margin-top: 64px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__line {
+    position: absolute;
+    width: 80px;
+    height: 7px;
+    background-color: #FFC600;
+  }
+
+  &__social {
+    margin: 0 auto;
+
+    &-item {
+      margin: 0 12px;
+      border-radius: 50%;
+      overflow: hidden;
+      opacity: .3;
+      transition: opacity .2s;
+
+      &:hover,
+      &:focus {
+        opacity: .6;
+      }
+
+      &:active {
+        opacity: .1;
+      }
+
+    }
+
+  }
+
 }
