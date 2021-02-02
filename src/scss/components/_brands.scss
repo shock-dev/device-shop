@@ -1,0 +1,23 @@
+.brands {
+  padding: 95px 0;
+
+  &__inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -20px;
+  }
+
+  &__item {
+    width: calc(100% / 12 * 3 - 40px);
+    margin: 0 20px;
+    filter: grayscale(100%);
+    opacity: .3;
+    transition: all .2s;
+
+    &:hover {
+      filter: grayscale(0);
+      opacity: 1;
+    }
+  }
+
+}
