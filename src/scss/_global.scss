@@ -55,6 +55,12 @@ button {
   font-weight: inherit;
 }
 
+#app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 .flex {
   display: flex;
 }

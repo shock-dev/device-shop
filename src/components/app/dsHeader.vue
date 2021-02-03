@@ -2,7 +2,7 @@
   <header class="header">
     <div class="container">
       <div class="header__inner">
-        <router-link class="header__logo" :to="{ name: 'Catalog' }">
+        <router-link class="header__logo" :to="{ name: 'Home' }">
           <img src="~@/assets/img/logo.png" alt="Logo">
         </router-link>
         <div class="header__row align">
