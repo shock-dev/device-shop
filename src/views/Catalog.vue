@@ -8,15 +8,20 @@
         <ds-breadcrumbs/>
       </div>
     </div>
+    <div class="row">
+      <ds-sidebar/>
+    </div>
   </div>
 </template>
 
 <script>
 import DsBreadcrumbs from "@/components/app/dsBreadcrumbs"
+import DsSidebar from "@/components/catalog/dsSidebar"
 
 export default {
   name: 'Catalog',
   components: {
+    DsSidebar,
     DsBreadcrumbs
   }
 }
