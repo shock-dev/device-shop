@@ -58,7 +58,7 @@
         <div class="header__row align">
           <div class="header__col">
             <div class="header__catalog">
-              <router-link class="header__catalog-title" to="#">Каталог</router-link>
+              <router-link class="header__catalog-title" to="/catalog">Каталог</router-link>
               <div class="header__catalog-popup catalog-popup">
                 <div class="catalog-popup__inner flex">
                   <ul class="catalog-popup__list">
